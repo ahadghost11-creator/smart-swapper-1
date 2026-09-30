@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "smartswapper",
+  "version": "1.0.0",
+  "name": "Smart Elytra Swapper",
+  "description": "Swaps elytra and chestplate safely with single-button animation and no double jump.",
+  "authors": ["You"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/smartswapper/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.yourname.smartswapper.SmartSwapperClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": ">=1.20",
+    "fabric-api": "*"
+  }
+}
